@@ -22,10 +22,7 @@ import com.msp.storysampleapplication.photoSDK.ViewType;
 //test commit
 
 public class BrushDrawingView extends View {
-
-
-
-
+    
     private float brushSize = 10;
     private float brushEraserSize = 100;
 

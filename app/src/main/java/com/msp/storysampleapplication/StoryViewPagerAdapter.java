@@ -97,7 +97,6 @@ public class StoryViewPagerAdapter extends RecyclerView.Adapter<StoryViewPagerAd
                 .buildPhotoEditorSDK(); // build photo editor sdk
 
         photoEditorSDK.setOnPhotoEditorSDKListener(this);
-
     }
 
     // Generate palette synchronously and return it
