@@ -97,7 +97,6 @@ public class EditingActivity extends AppCompatActivity implements SelectedStoryA
         if (storyViewPagerAdapter == null) {
             setStoryViewPageAdapter();
         } else {
-            storyViewPagerAdapter.sPosition(position);
             viewPager.setCurrentItem(position, false);
             if (prevIndex != position)
                 storyViewPagerAdapter.notifyItemChanged(position);

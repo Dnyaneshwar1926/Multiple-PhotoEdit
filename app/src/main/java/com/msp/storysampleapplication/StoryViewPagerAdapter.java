@@ -102,9 +102,6 @@ public class StoryViewPagerAdapter extends RecyclerView.Adapter<StoryViewPagerAd
         return Palette.from(bitmap).generate();
     }
 
-    void sPosition(int pos) {
-    }
-
     /**
      * This open the overlay to write text
      *
