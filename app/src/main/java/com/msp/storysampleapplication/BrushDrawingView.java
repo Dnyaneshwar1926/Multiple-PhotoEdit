@@ -20,6 +20,9 @@ import com.msp.storysampleapplication.photoSDK.ViewType;
 
 
 //test commit
+///
+///
+///
 
 public class BrushDrawingView extends View {
     
