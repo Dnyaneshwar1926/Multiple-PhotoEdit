@@ -43,7 +43,7 @@ public class StoryViewPagerAdapter extends RecyclerView.Adapter<StoryViewPagerAd
 
     private PhotoEditorSDK photoEditorSDK;
 
-    public StoryViewPagerAdapter(Context context, ArrayList<String> selectedImageModelArrayList) {
+    StoryViewPagerAdapter(Context context, ArrayList<String> selectedImageModelArrayList) {
         this.context = context;
         selectedImageArrayList = selectedImageModelArrayList;
     }
