@@ -38,8 +38,6 @@ public class StoryViewPagerAdapter extends RecyclerView.Adapter<StoryViewPagerAd
     private Context context;
     private ArrayList<String> selectedImageArrayList;
 
-    private int selectedPos = 0;
-
     private ArrayList<Integer> colorPickerColorsArrayList;
     private int colorCodeTextView = -1;
 
@@ -105,7 +103,6 @@ public class StoryViewPagerAdapter extends RecyclerView.Adapter<StoryViewPagerAd
     }
 
     void sPosition(int pos) {
-        selectedPos = pos;
     }
 
     /**
