@@ -18,6 +18,7 @@ import androidx.annotation.NonNull;
 import com.msp.storysampleapplication.photoSDK.OnPhotoEditorSDKListener;
 import com.msp.storysampleapplication.photoSDK.ViewType;
 //something change
+//
 public class BrushDrawingView extends View {
 
     private float brushSize = 10;
