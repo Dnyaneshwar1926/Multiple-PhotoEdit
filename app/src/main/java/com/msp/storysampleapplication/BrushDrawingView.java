@@ -24,6 +24,8 @@ import com.msp.storysampleapplication.photoSDK.ViewType;
 ///
 ///
 
+////sdfsdf
+
 public class BrushDrawingView extends View {
 
     private float brushSize = 10;
