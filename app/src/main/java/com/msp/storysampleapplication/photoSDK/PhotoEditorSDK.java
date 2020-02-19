@@ -26,7 +26,7 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
     private OnPhotoEditorSDKListener onPhotoEditorSDKListener;
     private View addTextRootView;
 
-    public PhotoEditorSDK(PhotoEditorSDKBuilder photoEditorSDKBuilder) {
+    private PhotoEditorSDK(PhotoEditorSDKBuilder photoEditorSDKBuilder) {
         this.context = photoEditorSDKBuilder.context;
         this.parentView = photoEditorSDKBuilder.parentView;
         this.imageView = photoEditorSDKBuilder.imageView;
